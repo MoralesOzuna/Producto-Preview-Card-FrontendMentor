@@ -80,7 +80,6 @@ body{
     .card__image{
         grid-row: 1/5;
         background-image: url(../images/image-product-desktop.jpg);
-        background-color: red;
         object-fit: contain;
         height: 100%;
         border-radius: 1rem 0 0 1rem;
@@ -159,7 +158,6 @@ body{
     color: var(--darkGrayish);
 }
 
-
 .card__button{
     padding: 2rem;
     background-color: var(--darkCyan);
@@ -174,7 +172,6 @@ body{
     color: var(--white);
     font-weight: 700;
     margin-bottom: 4rem;
-
     transition-property: background-color;
     transition-duration: .3s;
 }
